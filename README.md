@@ -40,16 +40,16 @@ Các hàm đối số cài đặt
 | CellHighlight_HuongDan() |		Tự động tạo trang tính hướng dẫn sử dụng
 
 
-Ví dụ: Tô màu vùng ô A1:Z1000 được đặt tên là Table1, với tô cột, dòng và ô chọn
+Ví dụ: Tô màu vùng ô A1:Z1000 được đặt tên là Table1, với tô cột, dòng và ô chọn\
 
-```=CellHighlight(Table1,HL_Row(),HL_Column(),HL_ActiveCell())```
+```=CellHighlight(Table1,HL_Row(),HL_Column(),HL_ActiveCell())```\
 
-Ví dụ: Tô màu vùng ô A1:Z1000 được đặt tên là Table1, tô dòng màu #5CC8B3 và ô chọn màu mặc định
+Ví dụ: Tô màu vùng ô A1:Z1000 được đặt tên là Table1, tô dòng màu #5CC8B3 và ô chọn màu mặc định\
 
-```=CellHighlight(Table1,HL_Row("#5CC8B3"),HL_ActiveCell())```
+```=CellHighlight(Table1,HL_Row("#5CC8B3"),HL_ActiveCell())```\
 
-Ví dụ CellHighlight_Delete:
-Nếu ô chứa hàm ```=CellHighlight(Table1,HL_ActiveCell())``` để xóa chỉ cần thêm _Delete và nhấn Enter
+Ví dụ CellHighlight_Delete:\
+Nếu ô chứa hàm ```=CellHighlight(Table1,HL_ActiveCell())``` để xóa chỉ cần thêm _Delete và nhấn Enter\
 Nếu nhập =CellHighlight_Delete() trên vùng ô có định dạng thì thực hiện xóa.
 
 #### Chọn màu sắc cho định dạng màu nền:
@@ -75,11 +75,11 @@ Ví dụ bạn muốn tô màu từ ô F4 cho đến F4:J25, hãy nhập màu n�
 ​
 Nếu bạn muốn chọn mô hình màu, thì gồm các hàm dưới đây, với 2 tham số, vị trí màu, và khoảng cách không gian màu:​
 ​
-```Fill_HUE(Starting, Fractor)​```
-```Fill_Natural(Starting, Fractor)​```
-```Fill_Lightness(Starting, Fractor)​```
+```Fill_HUE(Starting, Fractor)​```\
+```Fill_Natural(Starting, Fractor)​```\
+```Fill_Lightness(Starting, Fractor)​```\
 ​
-Công thức nhập như sau: ```=FillColor(F4:J25, Fill_Natural(0, 20))​```
+Công thức nhập như sau: ```=FillColor(F4:J25, Fill_Natural(0, 20))​```\
 ​
 Starting luôn bắt đầu từ 0, nếu bạn muốn lệch bao nhiêu thì thêm vào. Khoảng cách không gian màu tùy màu mà đối số có thể âm.​
 Các hàm này phải được nhập trong hàm FillColor.​
