@@ -6,6 +6,8 @@ Hàm tạo định dạng có điều kiện để tô màu cột và dòng làm
 
 Mặc dù có thể tạo định dạng có điều kiện bằng Trình tạo định dạng có điều kiện có sẵn của Excel. Tuy nhiên để thuận tiện, làm cho việc tạo dễ dàng và nhanh chóng hơn, chỉ cần tận dụng VBA để tự động hóa chúng. Các hàm dưới đây chỉ là bổ trợ tạo Formatting conditions, chứ không phải hàm chức năng.
 
+(Mật khẩu VBA là: 1)
+
 #### Ưu điểm của cách tô màu nổi bật với định dạng có điều kiện:
 - Đối chiếu dòng cột dễ dàng.
 - Định dạng không làm ảnh hướng đến chế độ Undo và Redo của Excel.
